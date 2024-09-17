@@ -15,16 +15,16 @@ Blab-a-Gag is a fairly simple forum type application which allows:
 
 * `/feed` shows the jokes/heckles that are relevant to the current user.
 * `/blabbers` shows a list of all other users and allows the current user to listen or ignore.
-* `/profile` allows the current user to modify their profile.
+* `/profile` allows the current user to modify their profile. 
 * `/login` allows you to log in to your account
 * `/register` allows you to create a new user account
 * `/tools` shows a tools page that shows a fortune or lets you ping a host.
 
 
-## Run
+## Run 
 
 If you don't already have Docker this is a prerequisite.
-
+  
 ```
 docker run --rm -it -p 127.0.0.1:8080:8080 antfie/verademo
 ```
